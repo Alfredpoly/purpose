@@ -1,0 +1,61 @@
+html {
+  font-size: 18px;
+}
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: black;
+  border-bottom: 1px solid white;
+}
+.logo img {
+  height: 3rem;
+  margin: 1rem 0;
+  margin-left: 2.2rem;
+}
+.menu img {
+  height: 1.5rem;
+  margin-left: 1rem;
+}
+.signup span {
+  margin-right: 1rem;
+}
+.signup a {
+  font-family: helvetica;
+  text-decoration: none;
+  color: white;
+  font-size: 1.2rem;
+}
+.main {
+  display: flex;
+  height: 880px;
+}
+.white {
+  background-color: white;
+  width: 50%;
+  display: flex;
+  justify-content: center;
+}
+.black {
+  background-color: black;
+  width: 50%;
+  display: flex;
+  justify-content: center;
+}
+.buy {
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: red;
+  height: 4rem;
+  width: 20rem;
+  margin-top: 700px
+}
+.buy a {
+  color: white;
+  font-size: 3rem;
+  font-family: helvetica;
+  text-decoration: none;
+
+}
